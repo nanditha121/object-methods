@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Object Methods</title>
+</head>
+<body>
+
+  <h2>Object Methods</h2>
+
+  <script>
+    // Number Object Methods
+    let num = 42;
+    console.log(num.toString());          // Method 1: toString()
+    console.log(Number.isInteger(num));   // Method 2: isInteger()
+    console.log(Number.parseFloat("3.14"));// Method 3: parseFloat()
+
+    // Math Object Methods
+    console.log(Math.abs(-5));             // Method 4: abs()
+    console.log(Math.pow(2, 3));           // Method 5: pow()
+    console.log(Math.random());            // Method 6: random()
+
+    // String Object Methods
+    let str = "Hello, World!";
+    console.log(str.length);               // Method 7: length
+    console.log(str.toUpperCase());        // Method 8: toUpperCase()
+    console.log(str.indexOf("World"));     // Method 9: indexOf()
+    console.log(str.slice(7, 12));         // Method 10: slice()
+
+    // Array Object Methods
+    let arr = [1, 2, 3, 4];
+    console.log(arr.join(", "));           // Method 11: join()
+    console.log(arr.reverse());            // Method 12: reverse()
+    console.log(arr.includes(3));          // Method 13: includes()
+
+    // Object Object Methods
+    let obj = { name: "John", age: 25 };
+    console.log(Object.keys(obj));         // Method 14: keys()
+    console.log(Object.values(obj));       // Method 15: values()
+    console.log(Object.entries(obj));      // Method 16: entries()
+  </script>
+
+</body>
+</html>
